@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #fbb034;
+  --text-color: #fff;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--text-color);
+  background-image: url(images/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  height: 100vh;
+}
+.header {
+  padding: 3rem 1.25rem 2rem 1.25rem;
+}
+.header h1 {
+  font-size: 3rem;
+  color: var(--main-color);
+  text-shadow: 0.05rem 0.15rem rgba(0, 0, 0, 0.9);
+}
+.header input {
+  width: 100%;
+  padding: 0.75rem;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  border-bottom: 0.1rem solid var(--main-color);
+  text-align: center;
+  font-size: 1.25rem;
+  color: var(--text-color);
+}
+.city {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+  text-shadow: 0.05rem 0.15rem rgba(0, 0, 0, 0.8);
+}
+.temperature {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-shadow: 0.05rem 0.25rem rgba(0, 0, 0, 1);
+}
+.description {
+  font-size: 1.5rem;
+  font-style: italic;
+  text-shadow: 0.05rem 0.15rem rgba(0, 0, 0, 0.8);
+  margin-bottom: 0.75rem;
+}
+
+.minmax {
+  font-size: 1.5rem;
+  text-shadow: 0.05rem 0.15rem rgba(0, 0, 0, 0.8);
+}
